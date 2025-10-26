@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="post-card">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-date">Publicado el {{ page.date | date: "%d de %B de %Y" }}</p>
+
+  {% if page.image %}
+  <img
+    src="{{ page.image | relative_url }}"
+    alt="{{ page.title }}"
+    class="post-image"
+  />
+  {% endif %}
+
+  <div class="post-content">{{ content }}</div>
+
+  <div class="post-buttons">
+    <a href="{{ '/blog/' | relative_url }}" class="btn-post"
+      >📝 Volver a los blogs publicados</a
+    >
+    <a href="{{ '/' | relative_url }}" class="btn-post">🏠 Volver al inicio</a>
+  </div>
+</article>

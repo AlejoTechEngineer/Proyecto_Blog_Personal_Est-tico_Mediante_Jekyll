@@ -1,0 +1,9 @@
+title: "Blog de Alejandro"
+description: "Un espacio para aprender sobre desarrollo web e inteligencia artificial"
+theme: jekyll-theme-cayman
+
+# Activa los plugins mínimos
+plugins:
+  - jekyll-feed
+
+markdown: kramdown

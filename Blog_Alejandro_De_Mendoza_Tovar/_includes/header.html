@@ -1,0 +1,12 @@
+<header class="page-header" role="banner">
+  <h1 class="project-name">{{ site.title | default: "Mi Blog" }}</h1>
+  <h2 class="project-tagline">
+    {{ site.description | default: "Bienvenido a mi blog personal" }}
+  </h2>
+
+  <nav class="nav">
+    <a href="{{ '/' | relative_url }}" class="btn">Inicio</a>
+    <a href="{{ '/blog/' | relative_url }}" class="btn">Blog</a>
+    <a href="{{ '/about/' | relative_url }}" class="btn">Acerca de</a>
+  </nav>
+</header>
