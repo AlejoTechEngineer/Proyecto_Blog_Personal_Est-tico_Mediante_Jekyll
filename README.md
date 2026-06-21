@@ -30,42 +30,22 @@ El sitio incluye tres publicaciones sobre tecnología, desarrollo web e intelige
 
 ---
 
-## Arquitectura del Proyecto
+## Arquitectura
 
-La estructura del proyecto sigue la convención estándar de Jekyll:
-
+```mermaid
+flowchart TD
+    A[blog_alejandro/] --> B[_config.yml]
+    A --> C[_layouts/ - default.html / post.html]
+    A --> D[_includes/ - header.html / footer.html]
+    A --> E[_posts/]
+    A --> F[assets/css/ - style.scss + custom.css]
+    A --> G[index.html / blog.md / about.md]
+    E --> H[2025-10-26-introduccion-al-blog.md]
+    E --> I[2025-10-26-inteligencia-artificial-y-futuro.md]
+    E --> J[2025-10-26-desarrollo-web-con-jekyll.md]
+    B --> K[Jekyll 4.4.1 - Generacion sitio estatico]
+    C & D & E & F --> K
 ```
-blog_alejandro/
-├── _includes/
-│   ├── footer.html          # Pie de página global
-│   └── header.html          # Encabezado y menú de navegación
-├── _layouts/
-│   ├── default.html         # Plantilla base del sitio
-│   └── post.html            # Plantilla para publicaciones individuales
-├── _posts/
-│   ├── 2025-10-26-introduccion-al-blog.md
-│   ├── 2025-10-26-inteligencia-artificial-y-futuro.md
-│   └── 2025-10-26-desarrollo-web-con-jekyll.md
-├── assets/
-│   └── css/
-│       ├── style.scss       # Estilos del tema Cayman
-│       └── custom.css       # Estilos personalizados
-├── Imagenes/
-│   ├── technologia.jpg
-│   ├── artificial-intelligence.jpg
-│   ├── creando_primer_blog_jekyll.jpg
-│   ├── pagina_de_inicio.jpg
-│   ├── acerca_de.jpg
-│   └── blog.jpg
-├── _config.yml              # Configuración principal de Jekyll
-├── index.html               # Página de inicio
-├── blog.md                  # Página de listado de publicaciones
-├── about.md                 # Página "Acerca de"
-├── Gemfile                  # Dependencias de Ruby
-└── README.md                # Este archivo
-```
-
----
 
 ## Tecnologías Utilizadas
 
