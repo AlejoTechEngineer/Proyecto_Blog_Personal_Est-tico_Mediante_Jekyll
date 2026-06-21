@@ -21,15 +21,6 @@ El sitio incluye tres publicaciones sobre tecnología, desarrollo web e intelige
 
 ---
 
-## Objetivos del Proyecto
-
-1. Aplicar los fundamentos de HTML y CSS en un proyecto real.
-2. Utilizar un generador de sitios estáticos (Jekyll) para construir un blog funcional.
-3. Implementar un diseño responsivo y navegable.
-4. Documentar el proceso de desarrollo de forma clara y profesional.
-
----
-
 ## Arquitectura
 
 ```mermaid
@@ -46,6 +37,15 @@ flowchart TD
     B --> K[Jekyll 4.4.1 - Generacion sitio estatico]
     C & D & E & F --> K
 ```
+
+## Objetivos del Proyecto
+
+1. Aplicar los fundamentos de HTML y CSS en un proyecto real.
+2. Utilizar un generador de sitios estáticos (Jekyll) para construir un blog funcional.
+3. Implementar un diseño responsivo y navegable.
+4. Documentar el proceso de desarrollo de forma clara y profesional.
+
+---
 
 ## Tecnologías Utilizadas
 
