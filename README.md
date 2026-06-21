@@ -1,9 +1,15 @@
+<div align="center">
+
 # Blog Personal con Jekyll
 
 **Autor:** Alejandro De Mendoza  
 **Asignatura:** Desarrollo de Aplicaciones en Red  
 **Fecha:** 26 de octubre de 2025  
 **Institución:** Universidad Internacional De La Rioja
+
+</div>
+
+---
 
 ---
 
